@@ -1,14 +1,14 @@
 #!/bin/bash
-# Simple Dante Socks5 Script for Debian
-# Script by Bonveio
-# https://github.com/Bonveio/BonvScripts
+# Socks5 sing sederhana kieh
+# Script by Tukiman
+# Kencot Madaang
 #
 
 function YourBanner(){
 # Edit nyo to
  echo -e " Welcome to my Script"
  echo -e " SOCKS5 Server Installer for Debian"
- echo -e " Script by Bonveio"
+ echo -e " Script by Tukiman"
  echo -e " This script is open for Remodification and Redistribution"
  echo -e ""
 }
@@ -73,7 +73,7 @@ function Uninstallation(){
  echo -e '[*] Uninstalling SOCKS5 Server'
  apt-get remove --purge dante-server &> /dev/null
  rm -rf /etc/danted.conf
- echo -e '[√] SOCKS5 Server successfully uninstalled and removed.'
+ echo -e '[√] SOCKS5 Server berhasil dibusek arep nyapo meneh?.'
 }
 
 function SuccessMessage(){
@@ -87,8 +87,8 @@ function SuccessMessage(){
  echo -e " Your SOCKS5 Proxy Port: $SOCKSPORT"
  if [ "$SOCKSAUTH" == 'username' ]; then
  echo -e " Your SOCKS5 Authentication:"
- echo -e " SOCKS5 Username: $socksUser"
- echo -e " SOCKS5 Password: $socksPass"
+ echo -e " SOCKS5 Username: $mbahmu"
+ echo -e " SOCKS5 Password: $kencot"
  fi
  echo -e " Install.txt can be found at /root/socks5.txt"
  cat <<EOF> ~/socks5.txt
@@ -148,5 +148,5 @@ until [[ "$opts" =~ ^[1-3]$ ]]; do
 	exit 1
 	;;
 esac
-SuccessMessage
+Ojo mbok nonton Bokep coookkk
 exit 1
