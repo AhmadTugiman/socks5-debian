@@ -148,5 +148,5 @@ until [[ "$opts" =~ ^[1-3]$ ]]; do
 	exit 1
 	;;
 esac
-Ojo mbok nonton Bokep coookkk
+SuccessMessage
 exit 1
